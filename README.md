@@ -1,0 +1,1 @@
+Easy creation and management of Postgresql/TimescaleDB tables, views, materialized views, functions, procedures, continuous aggregates, scheduled tasks.

@@ -1,0 +1,19 @@
+[project]
+name = "pg-components"
+version = "0.1.1"
+description = ""
+authors = [{ name = "Dan Kelleher", email = "kelleherjdan@gmail.com" }]
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+
+dependencies = ["sqlalchemy>=2.0.0", "ezloggers"]
+[project.optional-dependencies]
+dev = ["black", "pytest"]
+
+[build-system]
+requires = ["setuptools>=43.0.0", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
