@@ -106,7 +106,10 @@ class CAgg(MaterializedView):
             query=query,
             create_with_no_data=create_with_no_data,
             replace_existing=replace_existing,
-            storage_params=["timescaledb.continuous"],
+            storage_params=[
+                "timescaledb.continuous",
+                "timescaledb.materialized_only = false",
+            ],
             comment=comment,
         )
 
