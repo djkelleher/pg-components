@@ -2,7 +2,7 @@ from typing import Dict, List, Optional, Sequence, Union
 
 import sqlalchemy as sa
 from sqlalchemy import func as fn
-from sqlalchemy.engine import Compiled, Engine
+from sqlalchemy.engine import Engine
 
 from .base import DbObj, query_kwargs
 from .utils import compile_sa, execute_sql, logger, schema_table
