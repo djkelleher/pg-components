@@ -1,6 +1,6 @@
 [project]
 name = "pg-components"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 authors = [{ name = "Dan Kelleher", email = "kelleherjdan@gmail.com" }]
 readme = "README.md"
